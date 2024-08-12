@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test  name="Test">
 	  <parameter name="browser" value="chrome"/>
-	  <parameter name="appurl" value="http://www.google.com"/>
+	  <parameter name="appurl" value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"/>
 	   <parameter name="ito" value="10"/>
 	  <parameter name="eto" value="7"/>
     <packages>
