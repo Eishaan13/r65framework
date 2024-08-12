@@ -22,7 +22,7 @@ public class Loginpage {
 	@FindBy(name="password")
 	private WebElement pwTB;
 	
-	@FindBy(name=" Login ")
+	@FindBy(xpath="//button[text()=' Login ']")
     private WebElement Loginbtw;	
 	public Loginpage(WebDriver driver)
 	{
